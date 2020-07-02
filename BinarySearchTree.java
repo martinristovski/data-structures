@@ -33,7 +33,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
     }
 
     private Node add(Node node, T data) {
-        if (node = null) {
+        if (node == null) {
             node = new Node(null, null, data);
         } else {
             if (data.compareTo(node.data) < 0) {
