@@ -140,7 +140,7 @@ public class AVLTree<T extends Comparable<T>> implements Iterable<T> {
             node.right = remove(node.right, value);
         } else {
             if (node.left == null) {
-                retrun node.right;
+                return node.right;
             } else if (node.right == null) {
                 return node.left;
             } else {
